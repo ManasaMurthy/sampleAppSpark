@@ -24,3 +24,5 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-hive" % sparkVersion
 
 ) 
+
+libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.2" % "test"
