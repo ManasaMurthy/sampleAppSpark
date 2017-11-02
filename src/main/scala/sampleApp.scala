@@ -4,7 +4,7 @@ object sampleApp {
 
   def main(args:Array[String]): Unit ={
 
-  val conf = new SparkConf().setMaster("local[2]").setAppName("Sample")
+  val conf = new SparkConf().setAppName("Sample")
 
     val sc = new SparkContext(conf)
 
